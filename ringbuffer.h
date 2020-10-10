@@ -1,4 +1,6 @@
 #define BUFFER_SIZE 1024
+#include <stdio.h>
+#include <stdlib.h>
 enum error_type {OK, BUFFER_OVER_FLOW, EMPTY_BUFFER, POINTER_ERROR, BUFFER_FULL};
 struct buffer_type{
 	unsigned char *head;
